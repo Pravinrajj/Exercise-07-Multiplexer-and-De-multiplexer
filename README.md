@@ -47,42 +47,38 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
-/* write all the steps invloved */
-
-
-
+1. Using OR Gate and wires construct 4:1 Multiplexer
+2. Repeat the same steps to construct 1:4 Demultiplexer
+3. Find RTL Logic and Timing diagram for both Multiplexer and Demultiplexer
+4. End the program
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Pravinrajj
+RegisterNumber:  212222240080
 */
-
-
-
-
-
+### Program 1
+![mul](https://github.com/Pravinrajj/Exercise-07-Multiplexer-and-De-multiplexer/assets/117917674/9c04aaa4-f6e8-4832-baf4-a0af36d30f14)
+### Program 2
+![demul](https://github.com/Pravinrajj/Exercise-07-Multiplexer-and-De-multiplexer/assets/117917674/c45ea998-af84-4f18-b7c2-717670e2f803)
 
 ### RTL LOGIC  
-
-
-
-
-
-
-
+#### Logic 1
+![mulrtl](https://github.com/Pravinrajj/Exercise-07-Multiplexer-and-De-multiplexer/assets/117917674/df4ebb5c-8222-4b9b-92bf-67357bbf94bc)
+#### Logic 2
+![demulrtl](https://github.com/Pravinrajj/Exercise-07-Multiplexer-and-De-multiplexer/assets/117917674/2e1ed8cf-d404-49d1-b259-2161b6f3384a)
 
 ### TIMING DIGRAMS  
+#### Timing 1
+![multd](https://github.com/Pravinrajj/Exercise-07-Multiplexer-and-De-multiplexer/assets/117917674/984bf5a3-7ca5-4241-867c-28694dadfee6)
+#### Timing 2
+![demultd](https://github.com/Pravinrajj/Exercise-07-Multiplexer-and-De-multiplexer/assets/117917674/16ebe09d-88e9-4125-b072-01532e45d8ba)
 
+### TRUTH TABLE 1:
+![MultiplexerTT](https://github.com/Pravinrajj/Exercise-07-Multiplexer-and-De-multiplexer/assets/117917674/cd786f55-efce-4aa8-888b-aee9d4e26909)
 
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
+### TRUTH TABLE 2:
+![DemultiplexerTT](https://github.com/Pravinrajj/Exercise-07-Multiplexer-and-De-multiplexer/assets/117917674/84c8f5df-4194-4030-9c0c-7c0c5e46a759)
 
 ### RESULTS 
+Thus the Multiplexer and Demultiplexer circuits are designed and the truth table is verified using quartus software.
